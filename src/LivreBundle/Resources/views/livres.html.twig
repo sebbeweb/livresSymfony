@@ -1,0 +1,10 @@
+<link rel="stylesheet" href="{{ asset('bundles/framework/css/body.css') }}" type="text/css" media="all" />
+<h1>Livre </h1>
+
+<h2>tome {{tome}} </h2>
+
+<h3>chapitre {{chp}}</h3>
+
+<div><a class="{%if chp==chpp%}hide{%endif%}" href="http://localhost/livres/web/app_dev.php/livre/tome/{{tomep}}/chp/{{chpp}}">Precedent</a></div>
+                                           
+<div><a class="{%if chp==chps%}hide{%endif%}" href="http://localhost/livres/web/app_dev.php/livre/tome/{{tomes}}/chp/{{chps}}">Suivant</a></div>
